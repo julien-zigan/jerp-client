@@ -1,12 +1,12 @@
-import './App.css'
+// import './App.css'
 import RegistrationFrom from "./components/RegistrationForm.jsx";
 
 function App() {
 
   return (
-     <div className={"container-fluid"}>
+     <main className={"container p-5"}>
          <RegistrationFrom />
-     </div>
+     </main>
   )
 }
 
